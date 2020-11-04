@@ -7,8 +7,9 @@
 
 /* styles goes here */
 
-* {
+*,title {
 box-sizing: border-box;
+text-align: center;
 }
 header li {
     list-style: none;
