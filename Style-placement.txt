@@ -6,6 +6,10 @@
 <style>
 
 /* styles goes here */
+
+* {
+box-sizing: border-box;
+}
 header li {
     list-style: none;
 }
