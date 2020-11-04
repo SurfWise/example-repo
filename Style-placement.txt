@@ -1,56 +1,145 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CSS Revision !</title>
-    <style>
+<head>
+<meta charset="utf-8">
+<title>Psedo Class</title>
+<style>
+
+/* styles goes here */
 header li {
     list-style: none;
 }
 a:link, a:visited {
     text-decoration: none;
+    background-color: rgb(109, 204, 109);
     border: 1px solid blue;
-    background-color: green;
-    color: black;
-    display: block;
-    width: 200px;
+    color: rgb(255, 1, 1)233, 32, 32);
     text-align: center;
-    margin-bottom: 2px;
-}
-section div:nth-child(odd) {
-    background-color: grey;
-}
-section div:nth-child(4):hover {
-    background-color: greenyellow;
-    cursor: pointer;
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+    
 }
 a:hover, a:active {
-    background-color: hotpink;
-    color: white;
+    background-color: red;
+    color: plum;
 }
 header li:nth-child(3) {
-    font-size: 24px;
+    font-size: 50px;
 }
-    </style>
-    </head>
-    <body>
-        <h1>Pseudo class selector</h1>
-        <header>
-            <ul>
-                <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
-                <li><a href="https://www.google.com" target="_blank">Google</a></li>
-                <li><a href="https://in.yahoo.com" target="_blank">Yahoo</a></li>
-            </ul>
-        </header>
-        <section>
-            <div>Div 1</div>
-            <div>Div 2</div>
-            <div>Div 3</div>
-            <div>Div 4</div>
-            <div>Div 5</div>
-            <div>Div 6</div>
-            <div>Div 7</div>
-            <div>Div 8</div>
-            <div>Div 9</div>
-        </section>
-    </body>
+section div:nth-child(odd) {
+    background-color: gray;
+}
+section div:nth-child(4):hover {
+    background-color: green;
+    cursor: pointer;
+}
+p {
+    text-align: center;
+    color: blueviolet;
+    background-color: lightpink;
+    font-size: 25px;
+    font-style: italic;
+}
+.rock {
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+    font-weight: bold;
+    font-style: italic;
+    background-color: lightgoldenrodyellow;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+section {
+    text-align: center;
+}
+div {
+    font-size: 120%;
+}
+#paper {
+    background-color: lightsteelblue;
+}
+#scissor {
+    background-color: lightslategray;
+}
+#hand {
+    background-color: lightsalmon;
+}
+body {
+    margin: .8%;
+    padding: .8%;
+}
+#star {
+    background-color: rgb(24, 179, 94);
+    padding: 10px 10px 10px 10px;
+    border: 5px solid black;
+    margin: 40px;
+    box-sizing: border-box;
+}
+#moon {
+    background-color: plum;
+}
+</style>
+</head>
+<body>
+<h1> Pseudo Class Selector </h1>
+<p style="text-align: center;"> 
+    Intrigued by these persistent beliefs, psychologists 
+    have started to look at why some of us can’t shake off old 
+    superstitions and folk-lore. Their findings may suggest some hidden 
+    to believing in the paranormal. At the very least, it should cause you 
+    question whether you hold more insidious beliefs about the world.
+</p>
+<p class="rock">
+    Today, most historians and the general public agree that 
+    John Wilkes Booth, one of President Abraham Lincoln’s favorite actors, 
+    headed the conspiracy to murder the President, cabinet officers and Vice President Andrew Johnson. 
+    Throughout the 149 years since the Lincoln assassination, some Americans – and even some
+     historians – have found it difficult to believe that John Wilkes Booth, a mere actor, could 
+     orchestrate such a horrible crime. That one individual, acting with a rag-tag assemblage of comrades, 
+     could actually change the course of history and fell a national hero at the height of his popularity 
+     and at a time of great celebration, seems far-fetched to many.
+</p>
+<div id="star">
+    <div id="moon">
+        In the absence of a "Gandhism" approved by Gandhi himself, there is a school of thought that 
+        one has to derive what Gandhism stands for, from his life and works. One such deduction is a 
+        philosophy based on "truth" and "non-violence" in the following sense. First, we should acknowledge 
+        and accept the truth that people are different at all levels ("truth"). Second, that one should never 
+        resort to violence to settle inherent differences between human beings at any level: from between two 
+        people to two nations to two races or two religions
+    </div>
+</div>
+<div>Normal Text</div>
+<div style="font-size: 2em;">Javascript 
+<div> NodeJs
+<div> Github
+</div>
+</div>
+</div>
+<div id="paper"> paper
+    <div id="scissor"> scissor
+        <div id="hand"> hand
+        </div>
+    </div>
+</div>
+<header>
+<ul>
+    <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+    <li><a href="https://www.google.com" target="_blank">google</a></li>
+    <li><a href="https://in.yahoo.com" target="_blank">yahoo</a></li>
+</ul>
+</header>
+<section>
+<div>DIV 1</div>
+<div>DIV 2</div>
+<div>DIV 3</div>
+<div>DIV 4</div>
+<div>DIV 5</div>
+<div>DIV 6</div>
+<div>DIV 7</div>
+</section>
+
+
+</body>
 </html>
