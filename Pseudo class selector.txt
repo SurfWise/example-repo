@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Psedo Class</title>
+<style>
+
+/* styles goes here */
+header li {
+    list-style: none;
+}
+a:link, a:visited {
+    text-decoration: none;
+    background-color: rgb(109, 204, 109);
+    border: 1px solid blue;
+    color: rgb(255, 1, 1)233, 32, 32);
+    text-align: center;
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+}
+a:hover, a:active {
+    background-color: red;
+    color: plum;
+}
+header li:nth-child(3) {
+    font-size: 50px;
+}
+section div:nth-child(odd) {
+    background-color: gray;
+}
+section div:nth-child(4):hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+<h1> Pseudo Class Selector </h1>
+<p style="text-align: center;"> 
+    Intrigued by these persistent beliefs, psychologists 
+    have started to look at why some of us can’t shake off old 
+    superstitions and folk-lore. Their findings may suggest some hidden 
+    to believing in the paranormal. At the very least, it should cause you 
+    question whether you hold more insidious beliefs about the world.
+</p>
+<header>
+<ul>
+    <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+    <li><a href="https://www.google.com" target="_blank">google</a></li>
+    <li><a href="https://in.yahoo.com" target="_blank">yahoo</a></li>
+</ul>
+</header>
+<section>
+<div>DIV 1</div>
+<div>DIV 2</div>
+<div>DIV 3</div>
+<div>DIV 4</div>
+<div>DIV 5</div>
+<div>DIV 6</div>
+<div>DIV 7</div>
+</section>
+
+
+</body>
+</html>
